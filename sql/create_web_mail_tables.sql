@@ -2,8 +2,8 @@
 DROP TABLE IF EXISTS USER ; 
 
 CREATE TABLE USER (
-	id VARCHAR(40) primary key ,
-	name VARCHAR(200) NOT NULL , 
+	id VARCHAR(40) PRIMARY KEY,
+	name VARCHAR(200) NOT NULL, 
 	passwd VARCHAR(200),
 	phone_no VARCHAR(200),
 	
@@ -13,6 +13,8 @@ CREATE TABLE USER (
 INSERT INTO USER (id, name, passwd) VALUES 
 ( UUID(), 'admin', 'admin' ) ;
 
+INSERT INTO USER (id, name, passwd) VALUES 
+( UUID(), 'john', 'admin' ) ;
 
 -- SYSTEM FILES --
 
