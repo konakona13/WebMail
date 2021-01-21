@@ -3,8 +3,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메일 상세보기</title>
-<link rel="stylesheet" href="css/410_mailDetail.css">
+<title>메일 쓰기</title>
+<link rel="stylesheet" href="css/510_mailWrite.css">
 </head>
 <body>
 	<div id="message">
@@ -13,8 +13,9 @@
 				<a class="icon circle-icon glyphicon glyphicon-chevron-left trigger-message-close mr_20">
 					<img class="munjong_bigimg" src="img/list_icon.png">
 				</a>
-				받은 메일함
+				메일 쓰기
 			</h1>
+			
 		</div>
 		<div id="message-nano-wrapper" class="nano">
 			<div class="nano-content" tabindex="0">
@@ -22,34 +23,31 @@
 					<li class="received">
 						<div class="details">
 							<div class="left">
-								메일제목들어갈부분
+								<span class="width80">제목</span>
+								<div class="arrow orange"></div>
+								<div class="ui input">
+									<input type="text" placeholder="제목">
+								</div>
 							</div>
-							<div class="right">보낸 날짜!!!</div>
 						</div>
 						<div class="details">
 							<div class="left">
-								보낸사람 이메일주소!!
+								<span class="width80">받는 사람</span>
 								<div class="arrow orange"></div>
-								받은사람 이메일주소!!
+								<div class="ui input">
+									<input type="text" placeholder="받는 사람">
+								</div>
 							</div>
 						</div>
 						<div class="message">
-							메일본문~~~~~~~~~~~~~~~~~~~
-							메일본문~~~~~~~~~~~~~~~~~~~
-							메일본문~~~~~~~~~~~~~~~~~~~
-							메일본문~~~~~~~~~~~~~~~~~~~
-							메일본문~~~~~~~~~~~~~~~~~~~
-							메일본문~~~~~~~~~~~~~~~~~~~
+							<textarea class="myTextArea"></textarea>
 						</div>
 						<div class="tool-box">
 							<a href="#" class="circle-icon">
 								<img class="munjong_img" src="img/delete_icon.png">
 							</a>
 							<a href="#" class="circle-icon">
-								<img class="munjong_img" src="img/left_arrow_icon.PNG">
-							</a>
-							<a href="#" class="circle-icon">
-								<img class="munjong_img" src="img/right_arrow_icon.PNG">
+								<img class="munjong_img" src="img/send_icon.png">
 							</a>
 						</div>
 					</li>
