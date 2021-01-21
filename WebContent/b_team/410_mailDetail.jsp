@@ -43,6 +43,9 @@
 						</div>
 						<div class="tool-box">
 							<a href="#" class="circle-icon">
+								<img class="munjong_img" src="img/reply_icon.png">
+							</a>
+							<a href="#" class="circle-icon">
 								<img class="munjong_img" src="img/delete_icon.png">
 							</a>
 							<a href="#" class="circle-icon">
