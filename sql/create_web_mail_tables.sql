@@ -1,3 +1,21 @@
+-- USER --
+DROP TABLE IF EXISTS USER ; 
+
+CREATE TABLE USER (
+	id VARCHAR(40) primary key ,
+	name VARCHAR(200) NOT NULL , 
+	passwd VARCHAR(200),
+	phone_no VARCHAR(200),
+	
+	UNIQUE KEY idx_user_name ( name )
+);
+
+INSERT INTO USER (id, name, passwd) VALUES 
+( UUID(), 'admin', 'admin' ) ;
+
+
+-- SYSTEM FILES --
+
 -- 1 T_MAIL --
 DROP TABLE IF EXISTS T_MAIL ;
 
