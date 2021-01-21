@@ -18,7 +18,7 @@ public class SendEmail {
 		System.out.println("Sending email now ...");
 
 		// Recipient's email ID needs to be mentioned.
-		String to = "sunabove@nate.com";
+		String to = "rorbs12@gmail.com";
 
 		// Sender's email ID needs to be mentioned
 		String from = "terabuilder@gmail.com";
